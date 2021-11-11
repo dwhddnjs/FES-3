@@ -43,10 +43,17 @@ body {
   align-items: center;
   margin-top: 120px;
   overflow-x: hidden;
-  margin-bottom: 90px;
   box-sizing: border-box;
+  position: relative;
 }
 
+main {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+}
 body header {
   position: relative;
   width: 600px;
@@ -56,9 +63,11 @@ body header {
   justify-content: center;
   align-items: center;
   margin-bottom: 46px;
+  box-sizing: border-box;
 }
 
 header .loading {
+  position: absolute;
   opacity: 0.3;
 }
 
@@ -74,7 +83,7 @@ header + p {
   font-size: 36px;
   line-height: 40px;
   font-family: OTEnjoystoriesBA;
-  margin-bottom: 78px;
+  margin-bottom: 90px;
 }
 
 .container-1 {
@@ -187,6 +196,7 @@ header + p {
   justify-content: center;
   font-weight: 900;
   margin-bottom: 20px;
+  padding-top: 3px;
 }
 
 .container-3 img {
@@ -275,6 +285,7 @@ header + p {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 90px;
 }
 
 .container-6 p {
