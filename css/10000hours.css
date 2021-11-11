@@ -173,7 +173,7 @@ header + p {
 
 .container-3 {
   width: 565px;
-  height: 66px;
+  height: 80px;
   display: flex;
   align-items: flex-end;
   margin-bottom: 147px;
@@ -299,4 +299,35 @@ header + p {
   font-size: 12px;
   line-height: 17px;
   text-align: center;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  body header {
+    margin-left: 290px;
+  }
+
+  .sub-tit {
+    margin-left: 300px;
+  }
+  .container-1 {
+    margin-left: 300px;
+  }
+  .container-2 {
+    margin-left: 310px;
+  }
+  .container-3 {
+    margin-left: 300px;
+  }
+  .container-2 article {
+    font-size: 16px;
+  }
+  .container-4 {
+    margin-left: 300px;
+  }
+  .container-5 {
+    margin-left: 300px;
+  }
+  .container-6 {
+    margin-left: 300px;
+  }
 }
