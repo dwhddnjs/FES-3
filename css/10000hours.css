@@ -43,6 +43,8 @@ body {
   align-items: center;
   margin-top: 120px;
   overflow-x: hidden;
+  margin-bottom: 90px;
+  box-sizing: border-box;
 }
 
 body header {
@@ -71,7 +73,7 @@ header + p {
   font-weight: bold;
   font-size: 36px;
   line-height: 40px;
-  font-family: tvN Enjoystories;
+  font-family: OTEnjoystoriesBA;
   margin-bottom: 78px;
 }
 
@@ -189,4 +191,101 @@ header + p {
 
 .container-3 img {
   margin-left: 15px;
+}
+
+.container-4 {
+  width: 541px;
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 127px;
+}
+
+.container-4 article {
+  width: 663px;
+  height: 72px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  line-height: 24px;
+  font-family: Gmarket Sans;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.container-4 article strong {
+  font-family: Gmarket Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+.container-5 {
+  width: 556px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+
+.container-5 .btn-1 {
+  width: 356px;
+  height: 66px;
+  background: #fcee21;
+  padding: 21px 49px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 56px;
+  font-family: Gmarket Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 24px;
+  color: #5b2386;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.container-5 .btn-2 {
+  width: 191px;
+  height: 66px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 56px;
+  padding: 21px 49px;
+  font-family: Gmarket Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 24px;
+  color: #5b2386;
+  text-align: center;
+}
+
+.container-6 {
+  width: 370px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-6 p {
+  margin-top: 20px;
+  width: 365px;
+  height: 34px;
+  color: #ffffff;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
 }
